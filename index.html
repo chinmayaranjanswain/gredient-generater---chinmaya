@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="c svg.svg" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Gradient Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+               
+                    <div id="char-grid">
+                        <p class="chars" id="char-1">C</p>
+                        <p class="chars" id="char-2">h</p>
+                        <p class="chars" id="char-3">i</p>
+                        <p class="chars" id="char-4">n</p>
+                        <p class="chars" id="char-5">m</p>
+                        <p class="chars" id="char-6">a</p>
+                        <p class="chars" id="char-7">y</p>
+                        <p class="chars" id="char-8">a</p>
+                    </div>
+        
+            </div>
+            <ul class="nav-links">
+                <li><a href="https://chinmaya3.netlify.app/" class="nav-link" target="_blank">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Gradient Generator</h1>
+
+        <!-- Gradient display area -->
+        <div class="gradient-box" id="gradientBox"></div>
+
+        <!-- CSS Code display -->
+        <div class="code-container">
+            <p>CSS Code:</p>
+            <code id="gradientCode" class="gradient-code"></code>
+            <button id="copyBtn" class="copy-btn">Copy CSS</button>
+        </div>
+
+        <!-- Color palette -->
+        <div class="color-palette" id="colorPalette">
+            <p>Colors Used:</p>
+            <div class="palette-colors" id="paletteColors"></div>
+        </div>
+    </div>
+
+    <!-- Floating generate button -->
+    <button id="floatingGenerateBtn" class="floating-generate-btn">
+        <span>Generate Gradient</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
