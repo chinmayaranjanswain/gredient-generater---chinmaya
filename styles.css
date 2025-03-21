@@ -46,6 +46,25 @@ body {
     padding-bottom: 100px;
     background-color: #000;
 }
+@media (max-width: 768px) {
+
+    .nav-content {
+        max-width: 100% !important;
+        
+        padding: 1rem 1rem !important;
+    }
+    #floatingGenerateBtn {
+        width: 65% !important;
+        font-size: 0.7rem !important;
+    }
+    #hero-text{
+        font-size: 1.5rem !important;
+    }
+    .code-container{
+        background: transparent !important;
+    }
+    
+}
 ::selection{
     background-color: #fffce1;
     color: #000;
@@ -509,3 +528,9 @@ h1::after {
     transform: scale(1);
     opacity: 1;
 } 
+#gbchinmaya {
+    padding: 10px;
+    opacity: 50%;
+    color: #fff;
+    letter-spacing: 1px;
+}
